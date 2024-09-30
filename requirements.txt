@@ -7,7 +7,7 @@ flask==3.0.0
 cython==0.29.28
 geopy==2.4.1
 s2sphere==0.2.5
-Shapely==Shapely
+Shapely==2.0.2
 pynput==1.7.6
 PyYAML==6.0.1
 opencv-python==4.8.1.78
