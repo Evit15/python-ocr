@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN apt-get update && apt-get install -y software-properties-common \
+RUN apt-get update && apt-get install -y software-properties-common wget \
     && rm -rf /var/lib/apt/lists/*
 RUN apt-get install -y apt-transport-https && rm -rf /var/lib/apt/lists/*
 RUN echo "deb https://notesalexp.org/tesseract-ocr5/$(lsb_release -cs)/ $(lsb_release -cs) main" \
